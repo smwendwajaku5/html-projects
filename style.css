@@ -7,19 +7,26 @@ body{
     display: flex;
     justify-content: center;
     position: fixed;
+    background-size: cover;
+    background-image: url("mythical-dragon-beast-anime-style.jpg") ;
+  
+
 
 }
 .login-page{
     width: 300px;
     padding: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 230, 11);
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
-    background-color: lightgrey;
+    backdrop-filter: blur(10px);
+
+    
     
 }
 h1{
     text-align: center;
+    color: rgb(86, 205, 50);
 }
 .login-form{
     display: flex;
@@ -34,13 +41,13 @@ h1{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid grey;
-    border: none;
+    border: 2px solid rgb(47, 230, 11);
 }
 .login-form button{
     padding: 10px;
     border-radius: 10px;
     border: none;
-    background-color: rgba(0, 255, 255, 0.664);
+    background-color: rgba(0, 255, 0, 0.664);
     cursor: pointer; 
     font-weight: bold;
 }
@@ -50,15 +57,13 @@ h1{
 }
 .message a{
     text-decoration: none;
-    color: blue;
+    color: rgb(30, 255, 0);
     font-weight: bold;
 }
 .message a:hover{
     text-decoration: underline;
-}
-.message a:active{
-    color: red;
+    color: blue;
 }
 .login-form button:hover{
-    background-color: aqua;
+    background-color: rgb(43, 255, 0);
 }
